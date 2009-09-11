@@ -1,7 +1,7 @@
 === PC Search Engine Verify ===
 Contributors: petercoughlin
 Donate link: http://petercoughlin.com/donate/
-Tags: search engine, verify, meta, webmaster, google, bing, yahoo
+Tags: search engine verify, verify, meta, webmaster, google, bing, yahoo
 Requires at least: 2.5
 Tested up to: 2.8.4
 Stable tag: trunk
