@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: PC Search Engine Verify
-Plugin URI: http://petercoughlin.com/wordpress-plugins/
+Plugin URI: http://petercoughlin.com/search-engine-verify-wordpress-plugin/
 Description: Adds verify meta tags for Google, Bing and Yahoo!
 Author: Peter Coughlin
 Version: 2.2
-Author URI: http://www.petercoughlin.com/
+Author URI: http://petercoughlin.com/
 
 Version History
 ----------------
