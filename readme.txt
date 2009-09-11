@@ -26,7 +26,7 @@ With this plugin there's no editing of files, just upload, activate, and add the
 
 The easiest way is to go to your blog admin pages and under the Plugins menu, choose Add New.
 
-Click the Search menu link, type in something like "search engine verify" and hopefully you will see PC Search Engine Verify plugin in the list. On the right should be a link to install it.
+Click the Search menu link, type in something like "webmaster tools" and hopefully you will see this plugin (PC Search Engine Verify) in the list. On the right should be a link to install it.
 
 Alternatively, download the zip file to your computer, visit your blog admin pages, and under the Plugins menu choose Upload. Browse to the plugin zip file you downloaded, select it, install and activate it.
 
