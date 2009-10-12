@@ -4,11 +4,12 @@ Plugin Name: PC Search Engine Verify
 Plugin URI: http://petercoughlin.com/search-engine-verify-wordpress-plugin/
 Description: Adds verify meta tags for Google, Bing and Yahoo!
 Author: Peter Coughlin
-Version: 2.2
+Version: 2.3
 Author URI: http://petercoughlin.com/
 
 Version History
 ----------------
+2.3		Updated Google meta tag name
 2.2		Added support for Yahoo
 2.1		Added support for Bing
 2.0		Added class functionality
@@ -68,7 +69,7 @@ class pc_searchengine_verify {
 			$options = $this->get_options();
 
 			if ( '' != $options['google'] )
-				echo '<meta name="verify-v1" content="'.stripslashes($options['google']).'" />'."\n";
+				echo '<meta name="google-site-verification" content="'.stripslashes($options['google']).'" />'."\n";
 
 			if ( '' != $options['bing'] )
 				echo '<meta name="msvalidate.01" content="'.stripslashes($options['bing']).'" />'."\n";
