@@ -49,7 +49,7 @@ class pc_searchengine_verify_admin {
 			.'<table class="form-table">'
 			.'<tr>'
 				.'<th scope="row">Google:</th>'
-				.'<td>&lt;meta name="verify-v1" content="<input type="text" name="google" id="google" value="' . stripslashes($options['google']) . '" class="regular-text" />" /&gt;</td>'
+				.'<td>&lt;meta name="google-site-verification" content="<input type="text" name="google" id="google" value="' . stripslashes($options['google']) . '" class="regular-text" />" /&gt;</td>'
 			.'</tr>'
 			.'<tr>'
 				.'<th scope="row">Yahoo:</th>'
