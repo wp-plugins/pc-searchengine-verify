@@ -3,7 +3,7 @@ Contributors: petercoughlin
 Donate link: http://petercoughlin.com/donate/
 Tags: search engine verify, verify, meta, webmaster tools, google, bing, yahoo
 Requires at least: 2.5
-Tested up to: 2.8.4
+Tested up to: 2.8.5
 Stable tag: trunk
 
 PC Search Engine Verify enables you to easily add meta tags to your home page to confirm ownership of your domain for Google, Bing and Yahoo webmaster tools.
