@@ -21,6 +21,10 @@ class pc_searchengine_verify {
 
 	function pc_searchengine_verify() {
 
+		//add quick links to plugins page
+		$plugin = plugin_basename(__FILE__);
+		add_filter("plugin_action_links_$plugin", array(&$this, 'settings_link'));
+
 		// make sure we have the right paths...
 		if ( !defined('WP_PLUGIN_URL') ) {
 			if ( !defined('WP_CONTENT_DIR') ) define('WP_CONTENT_DIR', ABSPATH.'wp-content');
@@ -53,6 +57,12 @@ class pc_searchengine_verify {
 		$options = $this->get_options();
 		if ( $options['remove_settings'] )
 			delete_option('pc_searchengine_verify');
+	}// end function
+	
+	function settings_link($links) {
+		$settings_link = '<a href="options-general.php?page=pc-searchengine-verify/admin.php">Settings</a>';
+		array_unshift($links,$settings_link);
+		return $links;
 	}// end function
 	
 	function filter($content) {
